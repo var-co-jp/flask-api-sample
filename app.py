@@ -94,5 +94,5 @@ def login_message():
 
 
 # flask runコマンドで実行されたらサーバーが立ち上がる。
-if __name__ == "main":
+if __name__ == "__main__":
     app.run(debug=True)
