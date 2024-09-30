@@ -24,7 +24,7 @@ def current_time():
 
 # /dateにアクセスすると、入力メッセージが表示される
 @app.route('/date', methods=['POST'])
-def week_caluculation():
+def week_calculation():
     """
 
     コマンド例: curl -X POST -d 'days=2022-10-03' http://localhost:5000/date
